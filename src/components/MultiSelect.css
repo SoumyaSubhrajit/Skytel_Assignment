@@ -1,0 +1,42 @@
+/* Styles for the multiselect component */
+.multiselect {
+  position: absolute;
+  margin-top: 150px;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the option */
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: #f1f1f1;
+}
+
+.option input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.option label {
+  font-size: 14px;
+}
+
+/* Styles for the value container */
+.value-container {
+  display: flex;
+  align-items: center;
+}
+
+.value-label {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #888;
+}
